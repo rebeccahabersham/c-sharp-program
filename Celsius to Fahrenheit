@@ -1,0 +1,8 @@
+ //Write a program that converts a temperature in degrees Celsius to Fahrenheit
+            
+           
+            int n1, n2;
+            Console.Write("Enter a temperature in Celsius: ");
+            n1 = Convert.ToInt32(Console.ReadLine());
+            n2 = (n1 * 9/5) +32;
+            Console.WriteLine($"The temperature in Fahrenheit is {n2}");
