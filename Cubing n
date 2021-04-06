@@ -1,0 +1,7 @@
+//Write a program that gets an integer n and outputs n^3
+            int n1, n2;
+            Console.Write("Enter a number: ");
+            n1 = Convert.ToInt32(Console.ReadLine());
+            n2 = n1 * n1 * n1;
+            Console.WriteLine($"That number cubed is {n2}");
+            Console.ReadKey(); 
