@@ -1,0 +1,10 @@
+           //Write a program that gets two integer numbers and calculates the exact average of them.
+           //For example, if a user enters 1, and  2, your program prints 1.5
+            decimal n1, n2, n3;
+            Console.Write("Enter a number: ");
+            n1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter another number: ");
+            n2 = Convert.ToInt32(Console.ReadLine());
+            n3 = (n1 + n2) / 2;
+            Console.Write($"The average of these numbers are: {n3} ");
+            Console.ReadKey(); 
