@@ -1,0 +1,15 @@
+        //Write a program that gets two integer numbers and prints the bigger one
+             int n1, n2;
+             Console.Write("Enter a number: ");
+             n1 = Convert.ToInt32(Console.ReadLine());
+             Console.Write("Enter a number: ");
+             n2 = Convert.ToInt32(Console.ReadLine());
+             Console.Write("The bigger number is: ");
+             if (n1 > n2)
+             {
+                 Console.WriteLine(n1);
+             } else
+             {
+                 Console.WriteLine(n2);
+             }
+             Console.ReadKey(); 
