@@ -1,0 +1,9 @@
+//Write a program that gets an integer number n and calculates the sum of all numbers from 1 to n. For Example: if a user inputs 5, your program must output 15:
+    //15 = 1 + 2 + 3 + 4 + 5
+            
+            int n1, n2;
+            Console.Write("Enter a number: ");
+            n1 = Convert.ToInt32(Console.ReadLine());
+            n2 = (n1 * (n1 + 1)) / 2;
+            Console.WriteLine($"The sum of all numbers from 1 to that number is: {n2}");
+            Console.ReadKey(); 
